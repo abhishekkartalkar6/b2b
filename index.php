@@ -14,7 +14,7 @@
                 <input type="text" name="tracking_no" id="typeEmailX" placeholder="Enter tracking no." class="form-control form-control-lg" /> 
                 <span style="color:red;"><?php session_start(); if(isset($_SESSION['message'])){echo $_SESSION['message'];  session_destroy();} ?></span>
               </div>
-              <button class="btn btn-outline-light btn-lg px-3" name="track" type="submit">Submit</button>
+              <button class="btn btn-outline-light btn-lg px-3" name="track" type="submit">SUBMIT</button>
               </Form>
             </div>
 
